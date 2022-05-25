@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.MainFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/uni_sans"
+        android:gravity="center"
+        android:text="@string/main_text"
+        android:textColor="#9400CA"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/corners"
+        android:fontFamily="@font/glory"
+        android:hint="Имя парня"
+        android:paddingStart="32dp"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/secondName"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/corners"
+        android:fontFamily="@font/glory"
+        android:hint="Имя девушки"
+        android:paddingStart="32dp"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/resultBtn"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/uni_sans"
+        android:text="Узнать результат"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:cornerRadius="12dp" />
+</LinearLayout>
